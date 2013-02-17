@@ -1,0 +1,41 @@
+{
+	"name": "docpad-plugin-sync",
+	"version": "2.0.0-dev",
+	"description": "Sync the docpad database between docpad instances",
+	"homepage": "http://docpad.org/plugin/sync",
+	"keywords": [
+		"docpad",
+		"docpad-plugin",
+		"sync"
+	],
+	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+	"maintainers": [
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+		"Avi Deitcher (https://github.com/deitch)",
+		"Sergey Lukin <contact@sergeylukin.com> (https://github.com/sergeylukin)"
+	],
+	"contributors": [
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
+		"Avi Deitcher (https://github.com/deitch)",
+		"Sergey Lukin <contact@sergeylukin.com> (https://github.com/sergeylukin)"
+	],
+	"bugs": {
+		"url": "http://docpad.org/plugin/sync/issues"
+	},
+	"repository" : {
+		"type": "git",
+		"url": "https://github.com/docpad/docpad-plugin-sync.git"
+	},
+	"engines" : {
+		"node": ">=0.4",
+		"docpad": ">=6.21 <7"
+	},
+	"dependencies": {
+		"bal-util": "~1.16.8",
+		"scuttlebutt": "~5.5.15"
+	},
+	"devDependencies": {
+		"coffee-script": "~1.4.0"
+	},
+	"main": "./out/sync.plugin.js"
+}
