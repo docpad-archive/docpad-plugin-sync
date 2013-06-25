@@ -1,5 +1,4 @@
 # Prepare
-balUtil = require('bal-util')
 pathUtil = require('path')
 net = require('net')
 Emitter = require('scuttlebutt/events')
