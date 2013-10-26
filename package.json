@@ -1,36 +1,39 @@
 {
-	"name": "docpad-plugin-sync",
-	"version": "2.0.0-dev",
-	"description": "Sync the docpad database between docpad instances",
-	"homepage": "http://docpad.org/plugin/sync",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"sync"
-	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
-	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"bugs": {
-		"url": "http://docpad.org/plugin/sync/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "https://github.com/docpad/docpad-plugin-sync.git"
-	},
-	"engines" : {
-		"node": ">=0.4",
-		"docpad": ">=6.21 <7"
-	},
-	"dependencies": {
-		"scuttlebutt": "~5.5.15"
-	},
-	"devDependencies": {
-		"coffee-script": "~1.6.2"
-	},
-	"main": "./out/sync.plugin.js"
+  "name": "docpad-plugin-sync",
+  "version": "2.0.0-dev",
+  "description": "Sync the docpad database between docpad instances",
+  "homepage": "http://docpad.org/plugin/sync",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "sync"
+  ],
+  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "maintainers": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
+  "bugs": {
+    "url": "http://docpad.org/plugin/sync/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/docpad/docpad-plugin-sync.git"
+  },
+  "engines": {
+    "node": ">=0.4",
+    "docpad": ">=6.21 <7"
+  },
+  "dependencies": {
+    "scuttlebutt": "~5.5.15"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2"
+  },
+  "main": "./out/sync.plugin.js",
+  "peerDependencies": {
+    "docpad": "6"
+  }
 }
