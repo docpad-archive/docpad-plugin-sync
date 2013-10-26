@@ -23,8 +23,7 @@
     "url": "https://github.com/docpad/docpad-plugin-sync.git"
   },
   "engines": {
-    "node": ">=0.4",
-    "docpad": ">=6.21 <7"
+    "node": ">=0.4"
   },
   "dependencies": {
     "scuttlebutt": "~5.5.15"
