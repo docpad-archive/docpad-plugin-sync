@@ -33,6 +33,6 @@
   },
   "main": "./out/sync.plugin.js",
   "peerDependencies": {
-    "docpad": "6"
+    "docpad": ">=6.21 <7"
   }
 }
