@@ -1,6 +1,8 @@
-# DocPad Sync Plugin
-Sync the docpad database between docpad instances
+[This experiment is now deprecated.](https://discuss.bevry.me/t/deprecating-in-memory-docpad-importers-exporters/87)
 
+# DocPad Sync Plugin
+
+Sync the docpad database between docpad instances
 
 ## Install
 
